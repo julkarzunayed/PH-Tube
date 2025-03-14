@@ -12,7 +12,7 @@ function displayCategory (categories){
         const btnDiv = document.createElement("div");
         btnDiv.innerHTML = `
         <button 
-            class="bg-gray-200 text-gray-500 rounded-md py-2 px-5 font-medium text-lg">
+            class="bg-gray-200 text-gray-500 rounded-md py-2 px-5 font-medium text-lg hover:bg-orange-600 hover:text-white">
                     ${category.category}
         </button>
         `
@@ -21,5 +21,4 @@ function displayCategory (categories){
     // console.log(categories)
 
 }
-
 loadCategory()
